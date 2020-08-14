@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola </h1>
+    
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">Bienvenido</h1>
+        <form action="" id="form-bienvenido" class="">
+            <div class="form-group">
+            <input type="text" id="nombre" class="form-control" placeholder="Nombre" required>
+        </div>
+            <div class="form-group">
+            <input type="email" id="email" class="form-control" placeholder="ejemplo@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="telefono" class="form-control" placeholder="telefono" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="password" class="form-control" placeholder="Contraseña" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Entrar" id="boton" class="btn btn-primary btn-block" required>
+        </div>
+        </form>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
